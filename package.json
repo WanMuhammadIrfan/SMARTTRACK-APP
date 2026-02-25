@@ -1,0 +1,15 @@
+{
+  "name": "SmartTrack",
+  "version": "1.0.0",
+  "description": "SmartTrack Arrival Prediction",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^40.1.0"
+  }
+}

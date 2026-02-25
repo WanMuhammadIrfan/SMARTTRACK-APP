@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>SmartTrack</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+  <div class="logo">🚌 SmartTrack</div>
+
+  <div class="nav-links">
+    <button class="nav-btn active">Home</button>
+    <button class="nav-btn" id="goSaved">Saved Predictions</button>
+  </div>
+</div>
+
+
+<!-- MAIN CARD -->
+<div class="app-container">
+
+  <h1>Public Transport Arrival Predictor</h1>
+  <p id="clock"></p>
+
+  <div class="search-section">
+    <select id="stopDropdown">
+      <option value="">Select Bus Stop</option>
+    </select>
+
+    <button id="checkBtn">Check Arrival</button>
+  </div>
+
+  <div id="result"></div>
+
+  <div class="bottom-buttons">
+    <button id="saveBtn" style="display:none;">Save Prediction</button>
+  </div>
+
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
